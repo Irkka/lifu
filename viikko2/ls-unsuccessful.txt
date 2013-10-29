@@ -1,0 +1,2 @@
+ls: cannot access sadkfhj: No such file or directory
+ls sadkfhj 2> ls-unsuccessful.txt

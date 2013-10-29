@@ -1,0 +1,1 @@
+tar cf - viikko1 viikko2 | bzip2 > viikko3/viikot.tar.bz2

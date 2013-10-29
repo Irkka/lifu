@@ -1,0 +1,8 @@
+alias l1='ls -a1'
+.
+..
+viikko1
+viikko2
+viikko3
+viikko4
+viikko5

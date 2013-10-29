@@ -1,0 +1,3 @@
+40K	viikot1ja2.tar
+4.0K	viikot1ja2.tar.bz2
+4.0K	viikot1ja2.tar.gz

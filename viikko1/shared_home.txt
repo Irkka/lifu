@@ -1,0 +1,16 @@
+shared_home.txt
+
+:Author: Ilkka Hakkarainen
+:Email: ilkka.hakkarainen@cs.helsinki.fi
+:Date: 28.10.2013 11:39 11:39
+
+ilkkahak@melkki:~$ ssh ukko042.hpc.cs.helsinki.fi "cat ~/hostname.txt"                                                                                                                                                          │              
+melkki                                                                                                                                                                                                                          │              
+ilkkahak@melkki:~$  
+
+ilkkahak@melkki:~$ ssh ukko042.hpc.cs.helsinki.fi "hostname > ~/hostname.txt; cat ~/hostname.txt"                                                                                                                               │              
+ukko042                                                                                                                                                                                                                         │              
+ilkkahak@melkki:~$     
+
+.. vim: expandtab filetype=rst shiftwidth=4 tabstop=4
+

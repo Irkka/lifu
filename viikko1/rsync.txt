@@ -1,0 +1,40 @@
+rsync.txt
+
+:Author: Ilkka Hakkarainen
+:Email: ilkka.hakkarainen@cs.helsinki.fi
+:Date: 28.10.2013 11:55 11:55
+
+ilkkahak@melkki:~$ echo ~tkt_cam                                                                                                                                                                                                │              
+/cs/fs2/home/tkt_cam                                                                                                                                                                                                            │              
+ilkkahak@melkki:~$ rsync --archive ~tkt_cam/public_html/2011/10/30 Pictures/lifu/                                                                                                                                               │              
+ilkkahak@melkki:~$ cd Pictures/lifu/                                                                                                                                                                                            │              
+ilkkahak@melkki:~/Pictures/lifu$ ls                                                                                                                                                                                             │              
+30                                                                                                                                                                                                                              │              
+ilkkahak@melkki:~/Pictures/lifu$ 30                                                                                                                                                                                             │              
+-bash: 30: command not found                                                                                                                                                                                                    │              
+ilkkahak@melkki:~/Pictures/lifu$ cd 30/                                                                                                                                                                                         │              
+ilkkahak@melkki:~/Pictures/lifu/30$ ls                                                                                                                                                                                          │              
+201110300000.jpg  201110300200.jpg  201110300400.jpg  201110300600.jpg  201110300800.jpg  201110301000.jpg  201110301200.jpg  201110301400.jpg  201110301600.jpg  201110301800.jpg  201110302000.jpg  201110302200.jpg          │              
+201110300100.jpg  201110300300.jpg  201110300500.jpg  201110300700.jpg  201110300900.jpg  201110301100.jpg  201110301300.jpg  201110301500.jpg  201110301700.jpg  201110301900.jpg  201110302100.jpg  201110302300.jpg          │              
+ilkkahak@melkki:~/Pictures/lifu/30$ cd                                                                                                                                                                                          │              
+ilkkahak@melkki:~$ rsync --stats --archive ~tkt_cam/public_html/2011/10/30 Pictures/lifu/                                                                                                                                       │              
+                                                                                                                                                                                                                                │              
+Number of files: 25                                                                                                                                                                                                             │              
+Number of files transferred: 0                                                                                                                                                                                                  │              
+Total file size: 11179311 bytes                                                                                                                                                                                                 │              
+Total transferred file size: 0 bytes                                                                                                                                                                                            │              
+Literal data: 0 bytes                                                                                                                                                                                                           │              
+Matched data: 0 bytes                                                                                                                                                                                                           │              
+File list size: 473                                                                                                                                                                                                             │              
+File list generation time: 0.011 seconds                                                                                                                                                                                        │              
+File list transfer time: 0.000 seconds                                                                                                                                                                                          │              
+Total bytes sent: 487                                                                                                                                                                                                           │              
+Total bytes received: 13                                                                                                                                                                                                        │              
+                                                                                                                                                                                                                                │              
+sent 487 bytes  received 13 bytes  1000.00 bytes/sec                                                                                                                                                                            │              
+total size is 11179311  speedup is 22358.62                                                                                                                                                                                     │              
+ilkkahak@melkki:~$  
+
+
+.. vim: expandtab filetype=rst shiftwidth=4 tabstop=4
+

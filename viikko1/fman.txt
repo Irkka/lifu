@@ -1,0 +1,1 @@
+alias fman="man --html=firefox"
